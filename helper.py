@@ -16,7 +16,7 @@ def get_description(column_name, schema=schema):
     return desc
 
 #Question 3
-def total_count(df=df, col1, col2, look_for):
+def total_count(col1, col2, look_for, df=df):
     '''
     INPUT:
     df - the pandas dataframe you want to search
